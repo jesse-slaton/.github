@@ -12,6 +12,8 @@ GitHub uses the templates here for every jesse-slaton repository that has no `.g
 | `feature.md` | `enhancement` | A new feature or an enhancement |
 | `task.md` | `chore` | Refactor, cleanup, docs, CI, config or other non-feature work |
 
+An issue template's default label is applied only if that label exists in the repository. `bug` and `enhancement` are GitHub's defaults; `chore` was created in every jesse-slaton repository alongside these templates, so create it in any new repository too. Keep `dependencies` free for Dependabot, which applies it to its own pull requests.
+
 Each issue template opens with an agent-hints block. An agent working the issue uses exactly these settings, so set all three before submitting:
 
 ```
